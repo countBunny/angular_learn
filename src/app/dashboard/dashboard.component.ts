@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Hero } from '../beans/hero';
 
 @Component({
   selector: 'app-dashboard',
