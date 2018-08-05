@@ -29,8 +29,10 @@
     left: .1em;
   }
   .heroes .text {
+    display: inline-block;
     position: relative;
     top: -3px;
+    width: 145px;
   }
   .heroes .badge {
     display: inline-block;
@@ -45,4 +47,11 @@
     height: 1.8em;
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
+  }
+  button.delete {
+    position: relative;
+    top: -5px;
+
+    background-color: gray !important;
+    color: white;
   }
